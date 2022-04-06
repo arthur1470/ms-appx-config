@@ -1,0 +1,10 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${URI:https://github.com/arthur1470/properties.git}
